@@ -27,7 +27,7 @@ pipeline {
            
            stage('Docker Build') {
                steps {
-                   sh 'docker build -t scientific-calculator .'
+                    sh 'sudo docker build -t scientific-calculator .'
                }
            }
            
